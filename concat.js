@@ -8,5 +8,5 @@ const newArr2 = arr1.concat(arr2,'G');
 console.log(newArr2)
 
 const numbers = [[1,2],[3,4]]
-console.log(numbers.concat(5));
-console.log(numbers.concat([[5,6]]))
+console.log(numbers.concat(5)); //[ [ 1, 2 ], [ 3, 4 ], 5 ]
+console.log(numbers.concat([[5,6]])); //[ [ 1, 2 ], [ 3, 4 ], [ 5, 6 ] ]
